@@ -150,7 +150,6 @@ body {
     transition: 0.5s;
 }
 
-.box form .input-box input:valid~span,
 .box form .input-box input:focus~span {
     color: #192655;
     font-size: 0.75rem;
@@ -170,7 +169,6 @@ body {
     pointer-events: none;
 }
 
-.box form .input-box input:valid ~ i,
 .box form .input-box input:focus ~ i {
     height: 44px;
 }
