@@ -147,9 +147,10 @@ body {
     color: #7286D3;
     font-size: 1rem;
     letter-spacing: 0.05rem;
-    transition: 0.5s;
+    transition: 0.2s;
 }
 
+/* .box form .input-box input:valid~span, */
 .box form .input-box input:focus~span {
     color: #192655;
     font-size: 0.75rem;
@@ -169,6 +170,7 @@ body {
     pointer-events: none;
 }
 
+/* .box form .input-box input:valid ~ i, */
 .box form .input-box input:focus ~ i {
     height: 44px;
 }
